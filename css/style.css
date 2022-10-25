@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: ani 2s ease-in-out alternate;
+}
+@keyframes ani {
+    0%{
+        transform: translateY(-200px) ;
+    }
+100%{
+    transform:translateY(0) ;
+}
+}
+.navbar-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo a{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31,46,53,0.8);
+    padding: 0 30px;
+    transition: 4s;
+}
+
+.navbar-logo select {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31,46,53,0.8);
+    outline: none;
+    margin: 0 20px;
+    border: none;
+}
+.navbar-icons_icon{
+    padding:0 10px;
+}
+.navbar-logo a:hover{
+    color: red;
+    text-decoration-line: underline;
+    transform: scale(1.1);
+}
+
+
+.text {
+    width: 1000px;
+    padding: 70px;
+}
+.text-block {
+    animation: anim 2s ease-in-out alternate;
+}
+@keyframes anim {
+    0%{
+        transform: translateX(-1000px);
+    }
+
+}
+
+
+.text h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.text{
+    animation: anim 2s ease-in-out alternate;
+}
+@keyframes anim {
+0%{
+transform: translateX(-1000px);
+}
+}
+.img{
+    animation: img 2s ease-in-out alternate;
+}
+@keyframes img {
+    0%{
+        transform: translateX(1000px);
+    }
+
+}
+
+.text button{
+    width: 161px;
+    height: 53px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.25) ;
+    border-radius: 4px;
+    border: none;
+
+}
+.text button:hover{
+    transition: .4s ;
+    transform: scale(1.1);
+    color: black;
+    background: transparent;
+    border-bottom: 2px solid red;
+}
+#group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    padding: 20px 0;
+}
+.text span{
+    color: #EE4248;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.title{
+    animation: ti 2s ease-in-out alternate;
+}
+@keyframes ti {
+    0%{
+        transform: translateX(2000px);
+    }
+}
+.welcome p{
+    width: 529px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+}
+.technology p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    width: 329px;
+    color: #30444E;
+
+}
+.technology h1{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    padding: 20px 0;
+}
+.technology button{
+    width: 119px;
+    height: 42px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+    color: #FFFFFF;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin: 20px 0;
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product{
+    animation: pro 2s ease-in-out alternate;
+}
+@keyframes pro {
+    0%{
+        transform: translateX(2000px);
+    }
+
+}
+.product-text{
+    padding: 100px 0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    text-align: center;
+
+    color: #1F2E35;
+
+}
+.dsl text h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#pod{
+    background: #EE4248;
+    height: 64px;
+}
+.pod h1{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+#footer{
+    margin: 50px 0 10px 0;
+}
+.footer-block h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #263238;
+    padding: 28px 0;
+}
+.footer-block p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height:149.19%;
+    color: #263238;
+}
+.footer-text a{
+    font-weight: 300;
+    font-size: 18px;
+    line-height:149.19%;
+    color: #263238;
+}
+.footer-text h2{
+    padding: 28px 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 900px;
+}
+.footer-text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}

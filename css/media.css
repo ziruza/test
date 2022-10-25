@@ -1,0 +1,19 @@
+ @media(min-width:1140px ){
+
+ }
+ @media(min-width:1200px ){}
+ @media(min-width:1020px ){}
+ @media(min-width:992px ){
+  .navbar-icons{
+   display: flex;
+
+  }
+ }
+ @media(min-width:820px ){}
+ @media(min-width:768px ){}
+ @media(min-width: 650px){
+  
+ }
+ @media (min-width:576px ) {
+  
+ }
